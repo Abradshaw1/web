@@ -4,8 +4,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
-const base = process.env.NODE_ENV === 'production' ? '/web/' : '/'
-// const base = '/home/'
+// const base = process.env.NODE_ENV === 'production' ? '/web/' : '/'
+const base = '/web/'
 
 // https://vitejs.dev/config/
 export default defineConfig({

@@ -4,7 +4,7 @@ import Gallery from '../views/Gallery.vue'
 import CVView from '@/views/CVView.vue'
 
 const router = createRouter({
-  history: createWebHashHistory('/home/'), // 使用 hash 模式，并加上 /home/ 前缀
+  history: createWebHashHistory('/web/'), // 使用 hash 模式，并加上 /home/ 前缀
   routes: [
     {
       path: '/',
