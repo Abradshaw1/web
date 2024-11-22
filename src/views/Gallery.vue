@@ -30,7 +30,7 @@ const images = [
 <template>
   <div class="container">
     <header class="gallery-header">
-      <h1>Gallery</h1>
+      <h1>Projects</h1>
       <router-link to="/" class="back-link">← Back to Home</router-link>
     </header>
     
@@ -61,7 +61,7 @@ const images = [
 }
 
 .back-link {
-  color: #42b883;
+  color: #247eab;
   text-decoration: none;
   font-weight: 500;
 }

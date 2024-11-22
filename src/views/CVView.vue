@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 // 定义 CV 的 URL
-const cvUrl = `${import.meta.env.BASE_URL}assets/CV-JixuanHe.pdf`
+const cvUrl = `${import.meta.env.BASE_URL}assets/ABradshaw - Resume-CV.pdf`
 </script>
 
 
@@ -20,7 +20,7 @@ const cvUrl = `${import.meta.env.BASE_URL}assets/CV-JixuanHe.pdf`
 
 <style scoped>
 a {
-  color: #42b883;
+  color: #143f6a;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .back-link {
-  color: #42b883;
+  color: #116189;
   text-decoration: none;
   font-weight: 500;
 }

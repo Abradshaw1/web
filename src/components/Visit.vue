@@ -1,13 +1,13 @@
 <script setup>
 const contact = {
-  email: "jh2926 [AT] cornell [DOT] edu",
-  office: "Computer Science Building, Room 405",
-  address: "123 University Avenue, City, State 12345",
-  phone: "(123) 456-7890"
+  // email: "jh2926 [AT] cornell [DOT] edu",
+  // office: "Computer Science Building, Room 405",
+  // address: "123 University Avenue, City, State 12345",
+  // phone: "(123) 456-7890"
 }
 </script>
 
-<template>
+<!-- <template>
   <section id="visit" class="section">
     <h2>Also Visit</h2>
     <div class="contact-info">
@@ -21,7 +21,7 @@ const contact = {
       </div>
     </div>
   </section>
-</template>
+</template> -->
 
 <style scoped>
 .section {

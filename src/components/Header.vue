@@ -1,7 +1,7 @@
 <script setup>
-const name = "Jason Jixuan He (何吉轩)"
-const title = "M.Eng. CS"
-const institution = "Cornell University (Cornell Tech)"
+const name = "Aidan Bradshaw"
+const title = "M.S. Applied Data Science"
+const institution = "Carnegie Mellon University"
 
 const props = defineProps({
   scrollToSection: Function
@@ -12,27 +12,25 @@ const props = defineProps({
   <header class="header">
     <div class="profile">
       <div class="profile-image">
-        <img src="../assets/profile_edit.jpg">
+        <img src="../assets/Headshot1.jpg">
       </div>
       <div class="profile-info">
         <h1>{{ name }}</h1>
         <h2>{{ title }}</h2>
         <h3>{{ institution }}</h3>
         <div class="social-media">
-            <a href="mailto:jh2926@cornell.edu" class="icon-link"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/KaKituken" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/jixuan-he/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://scholar.google.com/citations?user=xCIYDzsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
-            <a href="https://x.com/kirino_ken" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:abradsha@andrew.cmu.edu" class="icon-link"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/Abradshaw1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aidanbradshaw1/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </div>
     <nav>
       <a href="#about" @click.prevent="scrollToSection('about')">About</a>
+      <router-link to="/gallery" class="gallery-link">Projects</router-link>
       <a href="#publications" @click.prevent="scrollToSection('publications')">Publications</a>
-      <a href="#research" @click.prevent="scrollToSection('research')">Research</a>
+      <!-- <a href="#research" @click.prevent="scrollToSection('research')">Research</a> -->
       <router-link to="/cv" class="gallery-link">CV</router-link>
-      <router-link to="/gallery" class="gallery-link">Gallery</router-link>
     </nav>
   </header>
 </template>
@@ -105,7 +103,7 @@ const props = defineProps({
 }
 
 .social-media i:hover {
-  color: #228b22;
+  color: #247eab;
 }
 
 nav {
@@ -121,7 +119,7 @@ nav a {
 }
 
 nav a:hover, nav a.router-link-active {
-  color: #228b22;
+  color: #247eab;
 }
 
 .gallery-link {

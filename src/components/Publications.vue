@@ -8,30 +8,30 @@ function openImage(url) {
 }
 
 const publications = [
-  {
-    title: "Putting Any Object into Any Scene: Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion",
-    authors: "<strong>Jixuan He</strong>, Wanhua Li*, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister",
-    journal: "Under Review",
-    year: null,
-    preview: `${import.meta.env.BASE_URL}assets/he2024affordance.jpg`,
-    arxiv: null,
-    code: null,
-    project: null,
-    demo: null,
-    poster: null
-  },
-  {
-    title: "R2-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding",
-    authors: "Ye Liu, <strong>Jixuan He</strong>, Wanhua Li*, Junsik Kim, Donglai Wei, Hanspeter Pfister, Chang Wen Chen*",
-    journal: "The European Conference on Computer Vision (ECCV)",
-    year: 2024,
-    preview: `${import.meta.env.BASE_URL}assets/liu2024tuning.jpg`,
-    arxiv: "https://arxiv.org/abs/2404.00801",
-    code: "https://github.com/yeliudev/R2-Tuning?tab=readme-ov-file",
-    project: null,
-    demo: "https://huggingface.co/spaces/yeliudev/R2-Tuning",
-    poster: "https://yeliu.dev/lib/files/r2tuning_poster.pdf"
-  }
+  // {
+  //   title: "Putting Any Object into Any Scene: Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion",
+  //   authors: "<strong>Jixuan He</strong>, Wanhua Li*, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister",
+  //   journal: "Under Review",
+  //   year: null,
+  //   preview: `${import.meta.env.BASE_URL}assets/he2024affordance.jpg`,
+  //   arxiv: null,
+  //   code: null,
+  //   project: null,
+  //   demo: null,
+  //   poster: null
+  // },
+  // {
+  //   title: "R2-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding",
+  //   authors: "Ye Liu, <strong>Jixuan He</strong>, Wanhua Li*, Junsik Kim, Donglai Wei, Hanspeter Pfister, Chang Wen Chen*",
+  //   journal: "The European Conference on Computer Vision (ECCV)",
+  //   year: 2024,
+  //   preview: `${import.meta.env.BASE_URL}assets/liu2024tuning.jpg`,
+  //   arxiv: "https://arxiv.org/abs/2404.00801",
+  //   code: "https://github.com/yeliudev/R2-Tuning?tab=readme-ov-file",
+  //   project: null,
+  //   demo: "https://huggingface.co/spaces/yeliudev/R2-Tuning",
+  //   poster: "https://yeliu.dev/lib/files/r2tuning_poster.pdf"
+  // }
 ]
 
 const highlightedPublications = computed(() => {
